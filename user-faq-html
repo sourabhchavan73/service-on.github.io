@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Srvice On</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+	
+<header>
+        <nav class="navbar  navbar-expand-sm pb-3 pt-3 fixed-top" style="background: white;">	
+            <div class="logo pl-4">
+                <a href="#"><img class="images/logo.png" src="images/logo.png"></a>
+            </div>
+        
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class=""><i class="fas fa-bars"></i></span>
+        </button>
+    
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item px-3">
+                        <a href="#" class="nav-link" id="active">About</a>
+                    </li>
+    
+                    <li class="nav-item px-3">
+                        <a href="#" class="nav-link">Help</a>
+                    </li>
+    
+                    <li class="nav-item px-3">
+                         <a href="#" class="nav-link">Offers</a>
+                    </li>
+    
+                    <li class="nav-item px-3">
+                        <a href="#" class="nav-link">Profile</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <div class="ham-menu">
+                            <img src="images/menu.png">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+    
+        </nav>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+		
+		<div class="home-footer">
+				<div class="container">
+		<div class="d-flex justify-content-around" style="padding-bottom: 2em; border-bottom: 0.1px solid #d69e9e;">
+			<div><a href=#>Home</a></div>
+			<div><a href=#>About Us</a></div>
+			<div><a href=#>FAQs</a></div>
+			<div><a href=#>Contact Us</a></div>
+			<div><a href=#>Privacy Policy</a></div>
+			<div><a href=#>Terms Of Use</a></div>
+			<div><a href=#>Offers</a></div>
+		</div>
+		<div>
+			<div class="col-lg-7 m-auto">
+				<div class="d-flex justify-content-around" style="    padding: 2em 0;">
+						<div class="contact">+91 99999 99999</div>
+						<div class="contact">+91 88888 8888</div>
+						<div class="contact">support@serviceon.co.in</div>
+						<div>Mumbai, Maharashtra</div>
+					</div>
+				</div>
+				<div class="col-lg-4 m-auto">					
+					<div class="d-flex justify-content-around">
+						<div class="footer-icon"><a href=#><img src="images/facebook.png"></a></div>
+						<div  class="footer-icon"><a href=#><img src="images/instagram.png"></a></div>
+						<div  class="footer-icon"><a href=#><img src="images/twitter.png"></a></div>
+						<div  class="footer-icon"><a href=#><img src="images/linkedin.png"></a></div>
+						<div  class="footer-icon"><a href=#><img src="images/android.png"></a></div>						
+					</div>
+				</div>
+		</div>
+		</div>
+	</div>
+	<div class="bottom-footer">
+		<div class="container">
+			<div style="padding-bottom: 2em; border-bottom: 1px solid #d69e9e;">
+				<div class="d-flex justify-content-around">
+					<div>
+						<div><a href=#>Bike service in Andheri East</a></div>
+						<div><a href=#>Bike service in Andheri West</a></div>
+						<div><a href=#>Bike service in Bandra East</a></div>
+						<div><a href=#>Bike service in Bandra West</a></div>
+						<div><a href=#>Bike service in Chembur</a></div>
+						<div><a href=#>Bike service in Kamothe</a></div>
+						<div><a href=#>Bike service in Sion</a></div>
+						<div><a href=#>Bike service in Vasai</a></div>
+						<div><a href=#>Bike service in Malad</a></div>
+						<div><a href=#>Bike service in Powai</a></div>
+					</div>
+
+					<div>
+							<div><a href=#>Bike service in Andheri East</a></div>
+							<div><a href=#>Bike service in Andheri West</a></div>
+							<div><a href=#>Bike service in Bandra East</a></div>
+							<div><a href=#>Bike service in Bandra West</a></div>
+							<div><a href=#>Bike service in Chembur</a></div>
+							<div><a href=#>Bike service in Kamothe</a></div>
+							<div><a href=#>Bike service in Sion</a></div>
+							<div><a href=#>Bike service in Vasai</a></div>
+							<div><a href=#>Bike service in Malad</a></div>
+							<div><a href=#>Bike service in Powai</a></div>
+						</div>
+						<div>
+								<div><a href=#>Bike service in Andheri East</a></div>
+								<div><a href=#>Bike service in Andheri West</a></div>
+								<div><a href=#>Bike service in Bandra East</a></div>
+								<div><a href=#>Bike service in Bandra West</a></div>
+								<div><a href=#>Bike service in Chembur</a></div>
+								<div><a href=#>Bike service in Kamothe</a></div>
+								<div><a href=#>Bike service in Sion</a></div>
+								<div><a href=#>Bike service in Vasai</a></div>
+								<div><a href=#>Bike service in Malad</a></div>
+								<div><a href=#>Bike service in Powai</a></div>
+							</div>
+							<div>
+									<div><a href=#>Bike service in Andheri East</a></div>
+									<div><a href=#>Bike service in Andheri West</a></div>
+									<div><a href=#>Bike service in Bandra East</a></div>
+									<div><a href=#>Bike service in Bandra West</a></div>
+									<div><a href=#>Bike service in Chembur</a></div>
+									<div><a href=#>Bike service in Kamothe</a></div>
+									<div><a href=#>Bike service in Sion</a></div>
+									<div><a href=#>Bike service in Vasai</a></div>
+									<div><a href=#>Bike service in Malad</a></div>
+									<div><a href=#>Bike service in Powai</a></div>
+								</div>
+				</div>
+		</div>
+		<div>
+			<div class="d-flex justify-content-between pt-3" >
+					<div>Copyrightt 2020; ServiceOn - Al rights reserved</div>
+					<div>Designed & developed by <a href="#">BrandzGarage</a></div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+	</footer>
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Srvice On</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+	
+<header>
+        <nav class="navbar  navbar-expand-sm pb-3 pt-3 fixed-top" style="background: white;">	
+            <div class="logo pl-4">
+                <a href="#"><img class="images/logo.png" src="images/logo.png"></a>
+            </div>
+
+   			<form class="form-inline my-2 my-lg-0 location-serach-tab">
+      			<input class="form-control" type="search" placeholder="Search" aria-label="Search">
+    		</form>
+        
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class=""><i class="fas fa-bars"></i></span>
+        </button>
+    
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item px-3">
+                        <a href="#" class="nav-link" id="active">About</a>
+                    </li>
+    
+                    <li class="nav-item px-3">
+                        <a href="#" class="nav-link">Help</a>
+                    </li>
+    
+                    <li class="nav-item px-3">
+                         <a href="#" class="nav-link">Offers</a>
+                    </li>
+    
+                    <li class="nav-item px-3">
+                        <a href="#" class="nav-link">Profile</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <div class="ham-menu">
+                            <img src="images/menu.png">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+    
+        </nav>
+    </header>
+
+
+
+<section id="garage-list">
+	<div class="row filter-section-cards">
+    	<div class="col-lg-2">
+    		<div class="text-center">
+    			<img class="filter-img" src="images/control-img.png">
+      			<span class="filter">Filters</span>
+    		</div>
+    	</div>
+
+	    	<div class="col col-lg-4">
+	      		<form class="form-inline my-2 my-lg-0 applied-filter">
+	      			<input class="form-control" type="search" placeholder="Search" aria-label="Search">
+	    		</form>
+	    	</div>
+
+    	
+    		<div class="col-lg-4 d-flex justify-content-end">
+    			3 of 3	
+    		</div>
+  	</div>
+
+  	<div class="row filter-section pb-5 pt-5">
+  		<div class="col-lg-3">
+  			<div class="card" style="width: 14rem";>
+  				<div class="card-head">
+  					<h5>Brand</h5>
+  				</div>
+
+  				<div class="card-body">
+  					<div class="user-select">
+  						<label>
+  							<input type="radio" name="group1" value="">
+  							<span class="pl-3">Brand 1</span>
+  						</label>
+
+  						<div>
+	  						<label>
+	  							<input type="radio" name="group1" value="">
+	  							<span class="pl-3">Brand 2</span>
+	  						</label>
+  						</div>	
+
+
+  						<div>
+	  						<label>
+	  							<input type="radio" name="group1" value="">
+	  							<span class="pl-3">Brand 3</span>
+	  						</label>
+  						</div>	
+
+  						<div id="dots">
+	  						<label>
+	  							<input type="radio" name="group1" value="">
+	  							<span class="pl-3">Brand 4</span>
+	  						</label>
+  						</div>	
+	
+	  					<div id="more">
+		  					<div>
+			  					<label>
+			  						<input type="radio" name="group1" value="">
+			  						<span class="pl-3">Brand 5</span>
+			  					</label>
+		  					</div>	
+
+	  						<div>
+		  						<label>
+		  							<input type="radio" name="group1" value="">
+		  							<span class="pl-3">Brand 6</span>
+		  						</label>
+	  						</div>
+
+	  						<div>
+		  						<label>
+		  							<input type="radio" name="group1" value="">
+		  							<span class="pl-3">Brand 7</span>
+		  						</label>
+	  						</div>
+
+	  						<div>
+		  						<label>
+		  							<input type="radio" name="group1" value="">
+		  							<span class="pl-3">Brand 8</span>
+		  						</label>
+	  						</div>
+  						</div>
+
+  						<div>
+  							<h5 class="see-more" onclick="myFunction()" id="myBtn">See More</h5>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+
+  			<!-- Model Filter -->
+  			<div class="card" style="width: 14rem";>
+  				<div class="card-head">
+  					<h5>Model</h5>
+  				</div>
+
+  				<div class="card-body">
+  					<div class="user-select">
+  						<label>
+  							<input type="radio" name="group1" value="">
+  							<span class="pl-3">Model 1</span>
+  						</label>
+
+  						<div>
+	  						<label>
+	  							<input type="radio" name="group1" value="">
+	  							<span class="pl-3">Model 2</span>
+	  						</label>
+  						</div>	
+
+
+  						<div>
+	  						<label>
+	  							<input type="radio" name="group1" value="">
+	  							<span class="pl-3">Model 3</span>
+	  						</label>
+  						</div>	
+
+  						<div id="dots-1">
+	  						<label>
+	  							<input type="radio" name="group1" value="">
+	  							<span class="pl-3">Model 4</span>
+	  						</label>
+  						</div>	
+	
+	  					<div id="more-model">
+		  					<div>
+			  					<label>
+			  						<input type="radio" name="group1" value="">
+			  						<span class="pl-3">Model 5</span>
+			  					</label>
+		  					</div>	
+
+	  						<div>
+		  						<label>
+		  							<input type="radio" name="group1" value="">
+		  							<span class="pl-3">Model 6</span>
+		  						</label>
+	  						</div>
+
+	  						<div>
+		  						<label>
+		  							<input type="radio" name="group1" value="">
+		  							<span class="pl-3">Model 7</span>
+		  						</label>
+	  						</div>
+
+	  						<div>
+		  						<label>
+		  							<input type="radio" name="group1" value="">
+		  							<span class="pl-3">Brand 8</span>
+		  						</label>
+	  						</div>
+  						</div>
+
+  						<div>
+  							<h5 class="see-more" onclick="myModelFunction()" id="more-model-Btn">See More</h5>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+
+  			<div class="card" style="width: 14rem";>
+  				<div class="card-head">
+  					<h5>Service Category</h5>
+  				</div>
+
+  				<div class="card-body">
+  					<div class="user-select">
+  						<label>
+  							<input type="radio" name="group1" value="">
+  							<span class="pl-3">Tyre</span>
+  						</label>
+
+  						<div>
+	  						<label>
+	  							<input type="radio" name="group1" value="">
+	  							<span class="pl-3">Engine</span>
+	  						</label>
+  						</div>	
+
+
+  						<div>
+	  						<label>
+	  							<input type="radio" name="group1" value="">
+	  							<span class="pl-3">Headlight</span>
+	  						</label>
+  						</div>	
+
+  						<div id="dots-2">
+	  						<label>
+	  							<input type="radio" name="group1" value="">
+	  							<span class="pl-3">Breaks</span>
+	  						</label>
+  						</div>	
+	
+	  					<div id="service-model">
+		  					<div>
+			  					<label>
+			  						<input type="radio" name="group1" value="">
+			  						<span class="pl-3">Model 5</span>
+			  					</label>
+		  					</div>	
+
+	  						<div>
+		  						<label>
+		  							<input type="radio" name="group1" value="">
+		  							<span class="pl-3">Model 6</span>
+		  						</label>
+	  						</div>
+
+	  						<div>
+		  						<label>
+		  							<input type="radio" name="group1" value="">
+		  							<span class="pl-3">Model 7</span>
+		  						</label>
+	  						</div>
+
+	  						<div>
+		  						<label>
+		  							<input type="radio" name="group1" value="">
+		  							<span class="pl-3">Brand 8</span>
+		  						</label>
+	  						</div>
+  						</div>
+
+  						<div>
+  							<h5 class="see-more" onclick="myServiceFunction()" id="service-model-Btn">See More</h5>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+
+  			<div class="card" style="width: 14rem";>
+  				<div class="card-head">
+  					<h5>Service Category</h5>
+  				</div>
+
+  				<div class="card-body">
+  					<div class="user-select">
+  						<label>
+  							<input type="radio" name="group1" value="">
+  							<span class="pl-3">5 star</span>
+  						</label>
+
+  						<div>
+	  						<label>
+	  							<input type="radio" name="group1" value="">
+	  							<span class="pl-3">4 star & above</span>
+	  						</label>
+  						</div>	
+
+
+  						<div>
+	  						<label>
+	  							<input type="radio" name="group1" value="">
+	  							<span class="pl-3">3 star & above</span>
+	  						</label>
+  						</div>	
+
+  						<div>
+	  						<label>
+	  							<input type="radio" name="group1" value="">
+	  							<span class="pl-3">2 star & above</span>
+	  						</label>
+  						</div>	
+  					</div>
+  				</div>
+  			</div>
+
+
+  			<div class="card" style="width: 14rem";>
+  				<div class="card-head">
+  					<h5>Offers</h5>
+  				</div>
+
+  				<div class="card-body">
+  					<div class="user-select">
+  						<label>
+  							<input type="radio" name="group1" value="">
+  							<span class="pl-3">> 10% Off</span>
+  						</label>
+
+  						<div>
+	  						<label>
+	  							<input type="radio" name="group1" value="">
+	  							<span class="pl-3">10-20% Off</span>
+	  						</label>
+  						</div>	
+
+
+  						<div>
+	  						<label>
+	  							<input type="radio" name="group1" value="">
+	  							<span class="pl-3">20% - 40% Off</span>
+	  						</label>
+  						</div>	
+
+  						<div id="dots-2">
+	  						<label>
+	  							<input type="radio" name="group1" value="">
+	  							<span class="pl-3">Above 40% Off</span>
+	  						</label>
+  						</div>	
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  	
+
+  		<div class="col-lg-8">
+  			<div class="row ">
+  				<div class="col-lg-4 d-flex justify-content-center">
+  					<div class="card d-flex align-items-center item-detail-card" style="width: 22rem";>
+  						<img class="card-img-top" src="images/item-card.png">
+  						<div class="card-body">
+  							<span>
+  							<img class="rating-star" src="images/rating.png">
+  							4.2</span>
+  							<span class="mid-dot">.</span>
+  							<span ><img class="price-img mr-1" src="images/cost-img.jpg"></span>
+  							<span>Moderate</span>
+  							<span class="mid-dot">.</span>
+  							<span><img class="timer-img" src="images/time-remain.png" class="pl-2"></span>
+  							<span>3Km</span>	
+  						</div>
+
+  						<div class="text-left ">
+  							<h5 class="item-info-head">The Garage Group</h5>
+  							<p class="item-info-content">Best Known for Tyres & Engines</p>
+  							<hr style="background-color: #f9f9f9;">
+  						</div>
+  					</div>	
+  				</div>
+
+  				<div class="col-lg-4 d-flex justify-content-center">
+  					<div class="card d-flex align-items-center item-detail-card" style="width: 22rem";>
+  						<img class="card-img-top" src="images/item-card.png">
+  						<div class="card-body">
+  							<span>
+  							<img class="rating-star" src="images/rating.png">
+  							4.2</span>
+  							<span class="mid-dot">.</span>
+  							<span ><img class="price-img mr-1" src="images/cost-img.jpg"></span>
+  							<span>Moderate</span>
+  							<span class="mid-dot">.</span>
+  							<span><img class="timer-img" src="images/time-remain.png" class="pl-2"></span>
+  							<span>3Km</span>	
+  						</div>
+
+  						<div class="text-left ">
+  							<h5 class="item-info-head">The Garage Group</h5>
+  							<p class="item-info-content">Best Known for Tyres & Engines</p>
+  							<hr style="background-color: #f9f9f9;">
+  						</div>
+  					</div>	
+  				</div>
+
+  				<div class="col-lg-4 d-flex justify-content-center">
+  					<div class="card d-flex align-items-center item-detail-card" style="width: 22rem";>
+  						<img class="card-img-top" src="images/item-card.png">
+  						<div class="card-body">
+  							<span>
+  							<img class="rating-star" src="images/rating.png">
+  							4.2</span>
+  							<span class="mid-dot">.</span>
+  							<span ><img class="price-img mr-1" src="images/cost-img.jpg"></span>
+  							<span>Moderate</span>
+  							<span class="mid-dot">.</span>
+  							<span><img class="timer-img" src="images/time-remain.png" class="pl-2"></span>
+  							<span>3Km</span>	
+  						</div>
+
+  						<div class="text-left ">
+  							<h5 class="item-info-head">The Garage Group</h5>
+  							<p class="item-info-content">Best Known for Tyres & Engines</p>
+  							<hr style="background-color: #f9f9f9;">
+  						</div>
+  					</div>	
+  				</div>
+
+
+
+  			</div>
+  		</div>
+
+
+
+
+  </div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+		
+		<div class="home-footer">
+				<div class="container">
+		<div class="d-flex justify-content-around" style="padding-bottom: 2em; border-bottom: 0.1px solid #d69e9e;">
+			<div><a href=#>Home</a></div>
+			<div><a href=#>About Us</a></div>
+			<div><a href=#>FAQs</a></div>
+			<div><a href=#>Contact Us</a></div>
+			<div><a href=#>Privacy Policy</a></div>
+			<div><a href=#>Terms Of Use</a></div>
+			<div><a href=#>Offers</a></div>
+		</div>
+		<div>
+			<div class="col-lg-7 m-auto">
+				<div class="d-flex justify-content-around" style="    padding: 2em 0;">
+						<div class="contact">+91 99999 99999</div>
+						<div class="contact">+91 88888 8888</div>
+						<div class="contact">support@serviceon.co.in</div>
+						<div>Mumbai, Maharashtra</div>
+					</div>
+				</div>
+				<div class="col-lg-4 m-auto">					
+					<div class="d-flex justify-content-around">
+						<div class="footer-icon"><a href=#><img src="images/facebook.png"></a></div>
+						<div  class="footer-icon"><a href=#><img src="images/instagram.png"></a></div>
+						<div  class="footer-icon"><a href=#><img src="images/twitter.png"></a></div>
+						<div  class="footer-icon"><a href=#><img src="images/linkedin.png"></a></div>
+						<div  class="footer-icon"><a href=#><img src="images/android.png"></a></div>						
+					</div>
+				</div>
+		</div>
+		</div>
+	</div>
+	<div class="bottom-footer">
+		<div class="container">
+			<div style="padding-bottom: 2em; border-bottom: 1px solid #d69e9e;">
+				<div class="d-flex justify-content-around">
+					<div>
+						<div><a href=#>Bike service in Andheri East</a></div>
+						<div><a href=#>Bike service in Andheri West</a></div>
+						<div><a href=#>Bike service in Bandra East</a></div>
+						<div><a href=#>Bike service in Bandra West</a></div>
+						<div><a href=#>Bike service in Chembur</a></div>
+						<div><a href=#>Bike service in Kamothe</a></div>
+						<div><a href=#>Bike service in Sion</a></div>
+						<div><a href=#>Bike service in Vasai</a></div>
+						<div><a href=#>Bike service in Malad</a></div>
+						<div><a href=#>Bike service in Powai</a></div>
+					</div>
+
+					<div>
+							<div><a href=#>Bike service in Andheri East</a></div>
+							<div><a href=#>Bike service in Andheri West</a></div>
+							<div><a href=#>Bike service in Bandra East</a></div>
+							<div><a href=#>Bike service in Bandra West</a></div>
+							<div><a href=#>Bike service in Chembur</a></div>
+							<div><a href=#>Bike service in Kamothe</a></div>
+							<div><a href=#>Bike service in Sion</a></div>
+							<div><a href=#>Bike service in Vasai</a></div>
+							<div><a href=#>Bike service in Malad</a></div>
+							<div><a href=#>Bike service in Powai</a></div>
+						</div>
+						<div>
+								<div><a href=#>Bike service in Andheri East</a></div>
+								<div><a href=#>Bike service in Andheri West</a></div>
+								<div><a href=#>Bike service in Bandra East</a></div>
+								<div><a href=#>Bike service in Bandra West</a></div>
+								<div><a href=#>Bike service in Chembur</a></div>
+								<div><a href=#>Bike service in Kamothe</a></div>
+								<div><a href=#>Bike service in Sion</a></div>
+								<div><a href=#>Bike service in Vasai</a></div>
+								<div><a href=#>Bike service in Malad</a></div>
+								<div><a href=#>Bike service in Powai</a></div>
+							</div>
+							<div>
+									<div><a href=#>Bike service in Andheri East</a></div>
+									<div><a href=#>Bike service in Andheri West</a></div>
+									<div><a href=#>Bike service in Bandra East</a></div>
+									<div><a href=#>Bike service in Bandra West</a></div>
+									<div><a href=#>Bike service in Chembur</a></div>
+									<div><a href=#>Bike service in Kamothe</a></div>
+									<div><a href=#>Bike service in Sion</a></div>
+									<div><a href=#>Bike service in Vasai</a></div>
+									<div><a href=#>Bike service in Malad</a></div>
+									<div><a href=#>Bike service in Powai</a></div>
+								</div>
+				</div>
+		</div>
+		<div>
+			<div class="d-flex justify-content-between pt-3" >
+					<div>Copyrightt 2020; ServiceOn - Al rights reserved</div>
+					<div>Designed & developed by <a href="#">BrandzGarage</a></div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+	</footer>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="index.js"></script>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "See more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "See less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>	
+
+</body>
+</html>
